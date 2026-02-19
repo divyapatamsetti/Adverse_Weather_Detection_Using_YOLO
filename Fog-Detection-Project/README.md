@@ -55,9 +55,14 @@ Adverse weather conditions such as fog, snow, dust, and rain significantly affec
 
 The model is trained for multi-class classification of weather conditions. The architecture includes:
 
-- Pre-trained backbone (YOLO / mobilenet / ViT)
+- Pre-trained backbone - YOLO 
 - Fine-tuned final classification layer (4 classes)
 - Cross-Entropy Loss
 - Adam Optimizer
+## Clone the repository:
+
+```bash
+git clone https://github.com/divyapatamsetti/Adverse_Weather_Detection_Using_YOLO.git
+cd Adverse_Weather_Detection_Using_YOLO
 
 
