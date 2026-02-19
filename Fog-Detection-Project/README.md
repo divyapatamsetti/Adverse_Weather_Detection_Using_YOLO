@@ -42,7 +42,7 @@ Adverse weather conditions such as fog, snow, dust, and rain significantly affec
 
 - Python
 - PyTorch
-- Ultralytics YOLO / CNN / Vision Transformer
+- Ultralytics YOLO 
 - OpenCV
 - NumPy
 - Matplotlib
@@ -59,4 +59,5 @@ The model is trained for multi-class classification of weather conditions. The a
 - Fine-tuned final classification layer (4 classes)
 - Cross-Entropy Loss
 - Adam Optimizer
+
 
