@@ -1,0 +1,28 @@
+Dataset Name: DAWN Weather Dataset
+Source: https://www.kaggle.com/datasets/shuvoalok/dawn-dataset
+
+Classes:
+1. Fog
+2. Rain
+3. Sand (Dust)
+4. Snow
+
+Total Classes: 4
+
+Dataset Structure:
+yolo_weather/
+│── train/
+│── val/
+│── test/
+
+Image Size Used: 224x224
+Model Used: YOLOv8n-cls (Nano version)
+Task Type: Multi-class Image Classification
+
+Dataset Split:
+- Training: 70%
+- Validation: 20%
+- Testing: 10%
+
+Purpose:
+To classify adverse weather conditions affecting road visibility.

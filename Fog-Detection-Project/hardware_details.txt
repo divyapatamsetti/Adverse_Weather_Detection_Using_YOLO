@@ -1,0 +1,19 @@
+Training Environment:
+- Platform: Google Colab
+- Framework: Ultralytics YOLOv8
+- Model: YOLOv8n-cls (Nano)
+- Image Size: 224
+- Batch Size: 16
+- Epochs: 10
+
+Deployment Target:
+- Raspberry Pi 4
+- Model Format: ONNX
+- Optimization: Lightweight Nano Model
+
+Exported Files:
+- best.pt
+- best.onnx
+
+Purpose:
+Real-time adverse weather classification for smart transportation systems.
